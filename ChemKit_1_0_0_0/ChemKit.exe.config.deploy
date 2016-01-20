@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="SchoolKit.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <system.diagnostics>
+        <sources>
+            <!-- This section defines the logging configuration for My.Application.Log -->
+            <source name="DefaultSource" switchName="DefaultSwitch">
+                <listeners>
+                    <add name="FileLog"/>
+                    <!-- Uncomment the below section to write to the Application Event Log -->
+                    <!--<add name="EventLog"/>-->
+                </listeners>
+            </source>
+        </sources>
+        <switches>
+            <add name="DefaultSwitch" value="Information" />
+        </switches>
+        <sharedListeners>
+            <add name="FileLog"
+                 type="Microsoft.VisualBasic.Logging.FileLogTraceListener, Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
+                 initializeData="FileLogWriter"/>
+            <!-- Uncomment the below section and replace APPLICATION_NAME with the name of your application to write to the Application Event Log -->
+            <!--<add name="EventLog" type="System.Diagnostics.EventLogTraceListener" initializeData="APPLICATION_NAME"/> -->
+        </sharedListeners>
+    </system.diagnostics>
+    <userSettings>
+        <SchoolKit.My.MySettings>
+            <setting name="TemperatureTypeMy" serializeAs="String">
+                <value>°C</value>
+            </setting>
+            <setting name="TryRepeat" serializeAs="String">
+                <value>3</value>
+            </setting>
+            <setting name="MaxLineInListBox" serializeAs="String">
+                <value>5</value>
+            </setting>
+            <setting name="NumberFormat" serializeAs="String">
+                <value>#,##0.00</value>
+            </setting>
+            <setting name="DataFormat" serializeAs="String">
+                <value>yyyy.MM.dd'; 'HH:mm:ss.ff</value>
+            </setting>
+            <setting name="mVoltFormat" serializeAs="String">
+                <value>#,##0.00</value>
+            </setting>
+            <setting name="TemperatureFormat" serializeAs="String">
+                <value>#,##0.0</value>
+            </setting>
+            <setting name="ColorSelectMy" serializeAs="String">
+                <value>255, 255, 128</value>
+            </setting>
+            <setting name="ScanOneWireRepeat" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CheckErrBeep" serializeAs="String">
+                <value>Checked</value>
+            </setting>
+            <setting name="DefIntervalMs" serializeAs="String">
+                <value>4000</value>
+            </setting>
+            <setting name="SelectOneWireActiveColor" serializeAs="String">
+                <value>Yellow</value>
+            </setting>
+        </SchoolKit.My.MySettings>
+    </userSettings>
+</configuration>

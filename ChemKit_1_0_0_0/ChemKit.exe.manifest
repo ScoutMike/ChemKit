@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="ChemKit.exe" version="1.0.0.0" publicKeyToken="d3d15b379e49a7a2" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ChemKit" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ChemKit.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChemKit.exe" size="344064">
+      <assemblyIdentity name="ChemKit" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Hq3bTE8eruCpNjrnKl+CjoaPYbI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="uk\ChemKit.resources.dll" size="32768">
+      <assemblyIdentity name="ChemKit.resources" version="1.0.0.0" language="uk" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>jtD4GBaxTaEAuQaEKsdZVnJmisc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="uk-UA\ChemKit.resources.dll" size="40960">
+      <assemblyIdentity name="ChemKit.resources" version="1.0.0.0" language="uk-UA" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>BVGqgK5ur8LGcgdEBA/Ac1qje+A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OneWireAPI.NET.dll" size="471040">
+      <assemblyIdentity name="OneWireAPI.NET" version="4.0.2.0" publicKeyToken="9D3ABE1382C69A37" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>OjTw0ki8JNYYfUs6p8+zr6kH9bE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="vjscor.dll" size="16384">
+      <assemblyIdentity name="vjscor" version="2.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>bzjzQqDYbA7s68N5hdLdbe95F4I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="vjslib.dll" size="3661824">
+      <assemblyIdentity name="vjslib" version="2.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>9speRY9/ub2UEiNv5fQXYJGbSxE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ChemKit.exe.config" size="3476">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JpKniqMKR+DG6+hGWuhMgp+u5oQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ChemKit.pdb" size="435712">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FMaGC5bGKHFIz0u3M/W/LYMvk1Q=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=REANIMAT-021DA8\Admin" issuerKeyHash="51a51f61b96cb53789cdd0d2cbd474a9d420cd45" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>NO8gIFHO9tCwemoDWYggT60eW9E=</DigestValue></Reference></SignedInfo><SignatureValue>uzCNqqGtjRUslRbHWMZ8RpNmigKZmeUHfC707BjM6p4U0+Z1n3OhsBMC90lFhXB2EJu2jk2M5H8RT3VCnfv2GZentZnvTN8kv2dvOSGP9Xvc5hxbvM4DoGlAwGRzDBz5EfNBZSP/zjx7Tuvs04tnD0gKRir32hEbSI+7E7ziz78=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>8tP74hVrwKQzdwPTWzUvdoHP0hq+jj/tbZLHe5RWVu2UGAhz1iv/Uh5Rix+j8X0aQK1yUxyPkGWeU9HLCumKMX8R5CC6PpoejRp4sq+Hzf0kVAJWLoMxijRW7gLkCGdvb9uEtnyJZPrKTrzBmcnMWgFQ73ivQa5xdSNAZuK+1M8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d15b1ead4f208859036a7ab0d0f6ce512020ef34" Description="" Url=""><as:assemblyIdentity name="ChemKit.exe" version="1.0.0.0" publicKeyToken="d3d15b379e49a7a2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=REANIMAT-021DA8\Admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>mJLjvgnY6krERa8BTPOhZbsvHqg=</DigestValue></Reference></SignedInfo><SignatureValue>uDl8QYqy/y2iydCdtBWoFcss4s2SxaC344MfW+xqDxo1srBd431yCq7BWydHODtYQ2ljW3wKETogKwirpGrFdZxQHGyo41oE3VoLaOdOmLIAHtoF9ZcbuLMz62Z54GOdmS+w6e6ZQOm8exAItKaU6jsf9a1TnHxy1xm50+6d5XQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8tP74hVrwKQzdwPTWzUvdoHP0hq+jj/tbZLHe5RWVu2UGAhz1iv/Uh5Rix+j8X0aQK1yUxyPkGWeU9HLCumKMX8R5CC6PpoejRp4sq+Hzf0kVAJWLoMxijRW7gLkCGdvb9uEtnyJZPrKTrzBmcnMWgFQ73ivQa5xdSNAZuK+1M8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAVKgAwIBAgIQP9FPeoJ9bKtEV7nQJnFVqjAJBgUrDgMCHQUAMDUxMzAxBgNVBAMeKgBSAEUAQQBOAEkATQBBAFQALQAwADIAMQBEAEEAOABcAEEAZABtAGkAbjAeFw0xMzEwMjAxMjAxNDZaFw0xNDEwMjAxODAxNDZaMDUxMzAxBgNVBAMeKgBSAEUAQQBOAEkATQBBAFQALQAwADIAMQBEAEEAOABcAEEAZABtAGkAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA8tP74hVrwKQzdwPTWzUvdoHP0hq+jj/tbZLHe5RWVu2UGAhz1iv/Uh5Rix+j8X0aQK1yUxyPkGWeU9HLCumKMX8R5CC6PpoejRp4sq+Hzf0kVAJWLoMxijRW7gLkCGdvb9uEtnyJZPrKTrzBmcnMWgFQ73ivQa5xdSNAZuK+1M8CAwEAATAJBgUrDgMCHQUAA4GBAHnQFn97jVLsXYB5zvuGht6ZbVo1RltICh4OHns6pZZXW/BRUAfMOBCPg8a2ZifcZTL23wXxaxETvlH16VF2E/ezPvmekLk8PTGJjsCJr6QHgEl83hByDy6v8NgQCYu5vjC1WQDESNCO/uUVzQPlYahIMCz/3m1FVlRoC+wcDZzI</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
